@@ -1,0 +1,85 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=78;
+DEPTH=78;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0   :   00000000000000000000;
+	1   :   000000007FFFC0000000;
+	2   :   00000003FFFFF8000000;
+	3   :   0000003FFFFFFF000000;
+	4   :   000000FFFFFFFFC00000;
+	5   :   000001FFFFFFFFF00000;
+	6   :   000007FFFFFFFFF80000;
+	7   :   00001FFFFFFFFFFE0000;
+	8   :   00003FFFFFFFFFFF0000;
+	9   :   00007FFFC000FFFF8000;
+	10  :   0001FFFE00001FFFE000;
+	11  :   0003FFF0000003FFF000;
+	12  :   0007FFC0000000FFF800;
+	13  :   000FFF800000003FFC00;
+	14  :   000FFE000000001FFC00;
+	15  :   001FFC000000000FFE00;
+	16  :   003FF80000000007FF00;
+	17  :   007FE00000000001FF80;
+	18  :   007FE00000000001FFC0;
+	19  :   00FFC00000000000FFC0;
+	20  :   00FF8000000000007FE0;
+	21  :   01FF0000000000003FE0;
+	22  :   03FF0000000000001FF0;
+	23  :   03FE0000000000001FF0;
+	[24..25]  :   07FC0000000000000FF8;
+	26  :   07F800000000000007F8;
+	27  :   07F800000000000007FC;
+	28  :   0FF800000000000003FC;
+	29  :   0FF000000000000003FC;
+	30  :   0FF000000000000003FE;
+	31  :   1FF000000000000003FE;
+	[32..45]  :   1FE000000000000001FE;
+	[46..47]  :   1FF000000000000003FE;
+	48  :   0FF000000000000003FC;
+	49  :   0FF800000000000003FC;
+	50  :   0FF800000000000007FC;
+	51  :   07F800000000000007F8;
+	[52..53]  :   07FC0000000000000FF8;
+	[54..55]  :   03FE0000000000001FF0;
+	56  :   01FF0000000000003FE0;
+	57  :   01FF8000000000007FE0;
+	58  :   00FFC00000000000FFC0;
+	59  :   007FE00000000001FFC0;
+	60  :   007FE00000000001FF80;
+	61  :   003FF80000000007FF00;
+	62  :   001FFC000000000FFE00;
+	63  :   000FFE000000001FFE00;
+	64  :   000FFF000000003FFC00;
+	65  :   0007FFC0000000FFF800;
+	66  :   0003FFF0000003FFF000;
+	67  :   0001FFFC00000FFFE000;
+	68  :   00007FFFC000FFFFC000;
+	69  :   00003FFFFFFFFFFF0000;
+	70  :   00001FFFFFFFFFFE0000;
+	71  :   00000FFFFFFFFFFC0000;
+	72  :   000003FFFFFFFFF00000;
+	73  :   000000FFFFFFFFC00000;
+	74  :   0000003FFFFFFF000000;
+	75  :   00000007FFFFF8000000;
+	76  :   00000000FFFFC0000000;
+	77  :   00000000000000000000;
+END;

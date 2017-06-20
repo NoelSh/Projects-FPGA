@@ -1,0 +1,203 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# Date created = 18:14:33  April 08, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		lcd_and_ps2_mouse_v3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY Top_level
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:14:33  APRIL 08, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_location_assignment PIN_AF26 -to LT24_D[0]
+set_location_assignment PIN_AF25 -to LT24_D[1]
+set_location_assignment PIN_AE24 -to LT24_D[2]
+set_location_assignment PIN_AE23 -to LT24_D[3]
+set_location_assignment PIN_AJ27 -to LT24_D[4]
+set_location_assignment PIN_AK29 -to LT24_D[5]
+set_location_assignment PIN_AK28 -to LT24_D[6]
+set_location_assignment PIN_AK27 -to LT24_D[7]
+set_location_assignment PIN_AJ26 -to LT24_D[8]
+set_location_assignment PIN_AK26 -to LT24_D[9]
+set_location_assignment PIN_AH25 -to LT24_D[10]
+set_location_assignment PIN_AJ25 -to LT24_D[11]
+set_location_assignment PIN_AJ24 -to LT24_D[12]
+set_location_assignment PIN_AK24 -to LT24_D[13]
+set_location_assignment PIN_AG23 -to LT24_D[14]
+set_location_assignment PIN_AK23 -to LT24_D[15]
+set_location_assignment PIN_AD21 -to LT24_RESETn
+set_location_assignment PIN_AH27 -to LT24_RS
+set_location_assignment PIN_AH23 -to LT24_CSn
+set_location_assignment PIN_AG26 -to LT24_RDn
+set_location_assignment PIN_AH24 -to LT24_WRn
+set_location_assignment PIN_AC22 -to LT24_LCD_ON
+set_location_assignment PIN_AA16 -to clock
+set_location_assignment PIN_AD7 -to ps2c
+set_location_assignment PIN_AE7 -to ps2d
+set_location_assignment PIN_AE26 -to SevenSeg[0]
+set_location_assignment PIN_AE27 -to SevenSeg[1]
+set_location_assignment PIN_AE28 -to SevenSeg[2]
+set_location_assignment PIN_AG27 -to SevenSeg[3]
+set_location_assignment PIN_AF28 -to SevenSeg[4]
+set_location_assignment PIN_AG28 -to SevenSeg[5]
+set_location_assignment PIN_AH28 -to SevenSeg[6]
+set_location_assignment PIN_AJ29 -to SevenSeg[7]
+set_location_assignment PIN_AH29 -to SevenSeg[8]
+set_location_assignment PIN_AH30 -to SevenSeg[9]
+set_location_assignment PIN_AG30 -to SevenSeg[10]
+set_location_assignment PIN_AF29 -to SevenSeg[11]
+set_location_assignment PIN_AF30 -to SevenSeg[12]
+set_location_assignment PIN_AD27 -to SevenSeg[13]
+set_location_assignment PIN_AB23 -to SevenSeg[14]
+set_location_assignment PIN_AE29 -to SevenSeg[15]
+set_location_assignment PIN_AD29 -to SevenSeg[16]
+set_location_assignment PIN_AC28 -to SevenSeg[17]
+set_location_assignment PIN_AD30 -to SevenSeg[18]
+set_location_assignment PIN_AC29 -to SevenSeg[19]
+set_location_assignment PIN_AC30 -to SevenSeg[20]
+set_location_assignment PIN_AD26 -to SevenSeg[21]
+set_location_assignment PIN_AC27 -to SevenSeg[22]
+set_location_assignment PIN_AD25 -to SevenSeg[23]
+set_location_assignment PIN_AC25 -to SevenSeg[24]
+set_location_assignment PIN_AB28 -to SevenSeg[25]
+set_location_assignment PIN_AB25 -to SevenSeg[26]
+set_location_assignment PIN_AB22 -to SevenSeg[27]
+set_location_assignment PIN_AA24 -to SevenSeg[28]
+set_location_assignment PIN_Y23 -to SevenSeg[29]
+set_location_assignment PIN_Y24 -to SevenSeg[30]
+set_location_assignment PIN_W22 -to SevenSeg[31]
+set_location_assignment PIN_W24 -to SevenSeg[32]
+set_location_assignment PIN_V23 -to SevenSeg[33]
+set_location_assignment PIN_W25 -to SevenSeg[34]
+set_location_assignment PIN_V25 -to SevenSeg[35]
+set_location_assignment PIN_AA28 -to SevenSeg[36]
+set_location_assignment PIN_Y27 -to SevenSeg[37]
+set_location_assignment PIN_AB27 -to SevenSeg[38]
+set_location_assignment PIN_AB26 -to SevenSeg[39]
+set_location_assignment PIN_AA26 -to SevenSeg[40]
+set_location_assignment PIN_AA25 -to SevenSeg[41]
+set_location_assignment PIN_V16 -to leds[0]
+set_location_assignment PIN_W16 -to leds[1]
+set_location_assignment PIN_V17 -to leds[2]
+set_location_assignment PIN_V18 -to leds[3]
+set_location_assignment PIN_W17 -to leds[4]
+set_location_assignment PIN_W19 -to leds[5]
+set_location_assignment PIN_Y19 -to leds[6]
+set_location_assignment PIN_W20 -to leds[7]
+set_location_assignment PIN_W21 -to leds[8]
+set_location_assignment PIN_Y21 -to leds[9]
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_AD17 -to oppo_chesspos_rx[0]
+set_location_assignment PIN_Y18 -to oppo_chesspos_rx[1]
+set_location_assignment PIN_AK16 -to oppo_chesspos_rx[2]
+set_location_assignment PIN_AK18 -to oppo_chesspos_rx[3]
+set_location_assignment PIN_AH17 -to oppo_click_rx
+set_location_assignment PIN_AF14 -to clock1
+set_location_assignment PIN_AC18 -to audio_pin
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_AB12 -to triggerTest
+set_global_assignment -name MIF_FILE backgound.mif
+set_global_assignment -name MIF_FILE imperialMarchTone.mif
+set_global_assignment -name VERILOG_FILE background_gen.v
+set_global_assignment -name VERILOG_FILE backgound_gen.v
+set_global_assignment -name QIP_FILE backgound_gen.qip
+set_global_assignment -name VERILOG_FILE crossROM.v
+set_global_assignment -name VERILOG_FILE crossBitmapGenerator.v
+set_global_assignment -name VERILOG_FILE keyNoteFrequency.v
+set_global_assignment -name VERILOG_FILE imperialMarchTone.v
+set_global_assignment -name VERILOG_FILE textGenerator.v
+set_global_assignment -name VERILOG_FILE SevenSegDriver.v
+set_global_assignment -name VERILOG_FILE SevenSegDisplay.v
+set_global_assignment -name QIP_FILE RAM.qip
+set_global_assignment -name VERILOG_FILE ps2_tx.v
+set_global_assignment -name VERILOG_FILE ps2_rxtx.v
+set_global_assignment -name VERILOG_FILE ps2_rx.v
+set_global_assignment -name VERILOG_FILE mouse.v
+set_global_assignment -name VERILOG_FILE LT24Top_tb_1.v
+set_global_assignment -name VERILOG_FILE LT24Top.v
+set_global_assignment -name VERILOG_FILE LT24Display.v
+set_global_assignment -name VERILOG_FILE interactionArea.v
+set_global_assignment -name VERILOG_FILE hexToBcd.v
+set_global_assignment -name VERILOG_FILE fontROM.v
+set_global_assignment -name VERILOG_FILE binaryToASCII.v
+set_global_assignment -name VERILOG_FILE bcdToASCII.v
+set_global_assignment -name VERILOG_FILE mouse_pos_convertor.v
+set_global_assignment -name VERILOG_FILE Top_level.v
+set_global_assignment -name VERILOG_FILE game_state_machine.v
+set_global_assignment -name VERILOG_FILE signal_blocker.v
+set_global_assignment -name VERILOG_FILE status_reg.v
+set_global_assignment -name VERILOG_FILE TicTacToe.v
+set_global_assignment -name VERILOG_FILE win_teller.v
+set_global_assignment -name VERILOG_FILE score_registor.v
+set_global_assignment -name VERILOG_FILE example_o_figure_generator.v
+set_global_assignment -name VERILOG_FILE example_x_figure_generator.v
+set_global_assignment -name MIF_FILE starwartest.mif
+set_global_assignment -name QIP_FILE StarWarROMtest.qip
+set_global_assignment -name VERILOG_FILE welcome_gen_t.v
+set_global_assignment -name VERILOG_FILE welcome_gen_test2.v
+set_global_assignment -name MIF_FILE longtimeago.mif
+set_global_assignment -name MIF_FILE TTTText.mif
+set_global_assignment -name QIP_FILE Text1ROM.qip
+set_global_assignment -name QIP_FILE Text2ROM.qip
+set_global_assignment -name QIP_FILE imperialMarchROM.qip
+set_global_assignment -name QIP_FILE circleROM.qip
+set_global_assignment -name VERILOG_FILE circleBitmapGenerator.v
+set_global_assignment -name MIF_FILE winnerTone.mif
+set_global_assignment -name VERILOG_FILE winnerTone.v
+set_global_assignment -name QIP_FILE winnerToneROM.qip
+set_global_assignment -name VERILOG_FILE level_to_pulse.v
+set_location_assignment PIN_AK19 -to local_chesspos_tx[0]
+set_location_assignment PIN_AJ19 -to local_chesspos_tx[1]
+set_location_assignment PIN_AJ17 -to local_chesspos_tx[2]
+set_location_assignment PIN_AJ16 -to local_chesspos_tx[3]
+set_location_assignment PIN_AC12 -to regReset_local
+set_location_assignment PIN_AB12 -to globalReset_local
+set_location_assignment PIN_AH18 -to local_click_tx
+set_location_assignment PIN_AG16 -to regReset_rx
+set_location_assignment PIN_AE16 -to regReset_tx
+set_location_assignment PIN_AF16 -to globalReset_tx
+set_location_assignment PIN_AG17 -to globalReset_rx
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
