@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sthv749_driver_RAM_LCD_v1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sthv749_driver_RAM_LCD|LT24Top:LT24Top|textGenerator:textGen|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_hbm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sthv749_driver_RAM_LCD|LT24Top:LT24Top|textGenerator:textGen|fontROM:fontBitmapROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9rf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sthv749_driver_RAM_LCD|sthv749_driver:sthv749_driver|programLoader:programLoader|progRAM:progRAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4em2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sthv749_driver_RAM_LCD|sthv749_driver:sthv749_driver|programLoader:programLoader|progROM_01:progROM_01|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vja2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|sthv749_driver_RAM_LCD|sthv749_driver:sthv749_driver|programLoader:programLoader|progROM_02:progROM_02|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0ka2.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
